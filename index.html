@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Dieteticas</title>
+
+     <!-- Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     
+      <!-- Font google / geologica font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+
+     <!-- Estilo genral-->
+     <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+   
+<body>
+   <!-- Barra superior para titulo, logo y menu principal-->
+   <header>
+    <!-- Barra superior para titulo, logo y menu principal-->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <!--
+            <a class="navbar-brand" href="#">Navbar</a> -->
+            <img id="logo" src="/assets/media/logo-large.png" alt="Natural Dieteticas Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="capacitaciones.html">Capacitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="sucursales.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sucursales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="sucursales.html#martinez">Martinez</a></li>
+                  <li><a class="dropdown-item" href="sucursales.html#parana">Parana</a></li>
+                </ul>
+              </li>
+              <!-- COMENTADO PARA UTILIZAR EN OTRO MOMENTO-->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>  
+
+<!-- Llamado a la accion-->
+ <div class="mensaje-principal">
+    <h1> Beneficios de pertenecer a Natural Dieteticas</h1>
+ </div>
+ <div class="grid-container">
+    <!-- Capacitaciones-->
+    <div class="card-01">
+        <img src="assets/media/nutricionista.png" class="imagenes" id="img-principal1" alt="Nutricionista sosteniendo harina apta celiacos">
+        <div class="card-body">
+         <h5 class="card-title">Nutrite con nosotros</h5>
+         <p class="card-text">Te compartimos informacion para una nutricion consciente</p>
+         <p class="card-text"><small class="text-muted" >Lic. Natalia Catan</small></p>
+         <button type="button" class="btn btn-primary btn-lg" href="capacitaciones.html">Capacitarme</button>
+        </div>
+     </div>
+    <!-- Recetas-->
+    <div class="card-02">
+        <img src="assets/media/recetas.jpg" class="imagenes" id="img-principal2" alt="ingredientes de cocina saludable">
+        <div class="card-body">
+         <h5 class="card-title">Recetas</h5>
+         <p class="card-text">Te compartimos recetas para impplementar</p>
+        <p class="card-text"><small class="text-muted">Conocelas!</small></p>
+         <button type="button" class="btn btn-primary btn-lg" href="recetas.html">Ver recetas</button>
+     </div>
+    </div>
+</div>
+
+<!-- Invitacion a tienda online-->
+<div class="card-tienda">
+        <div class="row g-0">
+          <div class="col-5 col-sm-5">
+            <img src="assets/media/web.png" class="img-fluid w-100" id="web-tienda-jpg" alt="card-horizontal-image">
+          </div>
+          <div class="col-7 col-sm-8">
+            <div class="card-body">
+              <h5 class="card-title">Tienda Online</h5>
+              <p class="card-text">Descubri nuestros productos y los mejores precios</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+              <a href="https://naturaldieteticas.com.ar/" target="_blank" id="tiendaurl"> Ingresa a nuestra web</a>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="redes">
+            <li>
+                <a href=""> <img class="icono-redes" src="/assets/media/fb.png" alt="Facebook"> </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/natural.dieteticas" target="_blank"> <img class="icono-redes" src="/assets/media/ig.png" alt="instagram"> </a>
+            </li>
+            <li>
+                <a href="https://wa.me/+1162181705" target="_blank">  <img class="icono-redes" src="/assets/media/wsp.png" alt="whatsapp" > </a>
+            </li>
+    </ul>
+    <div class="copyright">
+        <p> Natural Dieteticas 2024 - Derechos reservados</p>
+    </div>
+</footer>
+<!-- Bootstrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
