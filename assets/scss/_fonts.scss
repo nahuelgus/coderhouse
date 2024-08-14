@@ -1,0 +1,41 @@
+/* -------Reset fuentes ------*/
+
+h1 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+}
+h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Geologica", sans-serif, !important; 
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+    }
+ a{
+    color: rgb(6, 63, 6) !important;
+    font-size: 25px;
+    padding: 5px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+}   
