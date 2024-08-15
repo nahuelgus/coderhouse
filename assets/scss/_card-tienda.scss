@@ -1,0 +1,11 @@
+card-tienda{
+       
+    display: flex; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    img{
+        width: 250px;
+        height: 150px;
+    }
+}
